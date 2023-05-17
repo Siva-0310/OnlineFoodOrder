@@ -1,0 +1,27 @@
+name: online_food_order
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_floating_search_bar: ^0.3.7
+  syncfusion_flutter_sliders: ^21.2.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image.jpg
+    - assets/Food.jpg
+    - assets/tuna_sandwhich.jpg
+    - assets/biriyani.jpg
+    - assets/fish_fry.jpg
+    - assets/spring_rools.jpg
